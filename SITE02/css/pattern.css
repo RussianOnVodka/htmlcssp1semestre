@@ -1,0 +1,36 @@
+a:link 
+    {
+        color: #12E7DD;
+    }
+
+    a:visited
+    {
+        color: #12E7DD;
+    }
+
+    body 
+    {
+        background-image: url('WarwickCP.jp');
+        background-size: cover;
+        background-attachment: fixed;
+        background-color: #2D2D2F;
+        background-blend-mode: multiply;
+    }
+
+   ::-webkit-scrollbar {
+  width: 10px;
+   }
+
+   ::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+   }
+ 
+   ::-webkit-scrollbar-thumb {
+  background: #31AD6D; 
+  border-radius: 10px;
+   }
+
+   ::-webkit-scrollbar-thumb:hover {
+  background: #17DC76; 
+   }
